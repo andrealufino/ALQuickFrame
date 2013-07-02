@@ -35,6 +35,8 @@
 
 #pragma mark - X and Y
 
+//Every line with self.myView.(x,y,width,height,size) is thanks to the ALQuickFrame category. This is the usage.
+
 -(void)changeX:(id)sender {
     [UIView animateWithDuration:kAnimationGo animations:^{
         self.myView.x += 20;
