@@ -91,9 +91,8 @@
 				87FE19A21782CD2800112772 /* MainStoryboard.storyboard */,
 				87FE19A51782CD2800112772 /* ALViewController.h */,
 				87FE19A61782CD2800112772 /* ALViewController.m */,
+				87FE19E31782E21C00112772 /* ALQuickFrame */,
 				87FE19911782CD2800112772 /* Supporting Files */,
-				87FE19AD1782CD4A00112772 /* UIView+ALQuickFrame.h */,
-				87FE19AE1782CD4A00112772 /* UIView+ALQuickFrame.m */,
 			);
 			path = ALQuickFrame;
 			sourceTree = "<group>";
@@ -110,6 +109,15 @@
 				87FE19A01782CD2800112772 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FE19E31782E21C00112772 /* ALQuickFrame */ = {
+			isa = PBXGroup;
+			children = (
+				87FE19AD1782CD4A00112772 /* UIView+ALQuickFrame.h */,
+				87FE19AE1782CD4A00112772 /* UIView+ALQuickFrame.m */,
+			);
+			name = ALQuickFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
