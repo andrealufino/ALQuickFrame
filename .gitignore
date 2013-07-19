@@ -2,5 +2,6 @@
 *.pbxproj
 
 *.xcuserstate
+UserInterfaceState.xcuserstate
 
 ALQuickFrame.xcodeproj/project.xcworkspace/xcuserdata/AL08.xcuserdatad/UserInterfaceState.xcuserstate
