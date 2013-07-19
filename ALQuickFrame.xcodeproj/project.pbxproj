@@ -315,6 +315,7 @@
 				87FE19AC1782CD2800112772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
