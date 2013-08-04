@@ -56,6 +56,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8713839417AEECF600D12D1E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				87FE19A51782CD2800112772 /* ALViewController.h */,
+				87FE19A61782CD2800112772 /* ALViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8713839517AEECFF00D12D1E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				87FE19991782CD2800112772 /* ALAppDelegate.h */,
+				87FE199A1782CD2800112772 /* ALAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8713839617AEED0700D12D1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8713839517AEECFF00D12D1E /* AppDelegate */,
+				87FE19E31782E21C00112772 /* ALQuickFrame */,
+				8713839417AEECF600D12D1E /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8713839717AEED0C00D12D1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87FE19A21782CD2800112772 /* MainStoryboard.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		87FE197E1782CD2800112772 = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +122,8 @@
 		87FE19901782CD2800112772 /* ALQuickFrame */ = {
 			isa = PBXGroup;
 			children = (
-				87FE19991782CD2800112772 /* ALAppDelegate.h */,
-				87FE199A1782CD2800112772 /* ALAppDelegate.m */,
-				87FE19A21782CD2800112772 /* MainStoryboard.storyboard */,
-				87FE19A51782CD2800112772 /* ALViewController.h */,
-				87FE19A61782CD2800112772 /* ALViewController.m */,
-				87FE19E31782E21C00112772 /* ALQuickFrame */,
+				8713839617AEED0700D12D1E /* Classes */,
+				8713839717AEED0C00D12D1E /* Resources */,
 				87FE19911782CD2800112772 /* Supporting Files */,
 			);
 			path = ALQuickFrame;
