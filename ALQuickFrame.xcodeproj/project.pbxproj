@@ -38,8 +38,8 @@
 		87FE19A31782CD2800112772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		87FE19A51782CD2800112772 /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
 		87FE19A61782CD2800112772 /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
-		87FE19AD1782CD4A00112772 /* UIView+ALQuickFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ALQuickFrame.h"; path = "../../../ALQuickFrame/ALQuickFrame/ALQuickFrame/UIView+ALQuickFrame.h"; sourceTree = "<group>"; };
-		87FE19AE1782CD4A00112772 /* UIView+ALQuickFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ALQuickFrame.m"; path = "../../../ALQuickFrame/ALQuickFrame/ALQuickFrame/UIView+ALQuickFrame.m"; sourceTree = "<group>"; };
+		87FE19AD1782CD4A00112772 /* UIView+ALQuickFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALQuickFrame.h"; sourceTree = "<group>"; };
+		87FE19AE1782CD4A00112772 /* UIView+ALQuickFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALQuickFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 				87FE19AE1782CD4A00112772 /* UIView+ALQuickFrame.m */,
 			);
 			name = ALQuickFrame;
-			path = ../../../ALQuickFrame/ALQuickFrame/ALQuickFrame;
+			path = "UIView+ALQuickFrame";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
